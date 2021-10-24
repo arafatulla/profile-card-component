@@ -17,4 +17,4 @@
 .prettierignore
 
 # for avoiding scss file
-.scss
+*.scss
