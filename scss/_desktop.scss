@@ -15,5 +15,8 @@
             transform: translate(35%, 70%);
             z-index: -1;
         }
+        .card{
+            max-height: 100%;
+        }
     }
 }

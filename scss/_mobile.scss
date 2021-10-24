@@ -1,6 +1,6 @@
 @media (max-width: 375px) {
     .container{
-        max-height: 100%;
+        max-height: 90vh;
         overflow: scroll;
         .after{
             position: absolute;
@@ -15,6 +15,9 @@
             bottom: 0;
             transform: translate(80%, 60%);
             z-index: -1;
+        }
+        .card{
+            height: 400px;
         }
     }
 }
