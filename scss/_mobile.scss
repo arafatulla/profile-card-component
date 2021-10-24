@@ -1,0 +1,20 @@
+@media (max-width: 375px) {
+    .container{
+        max-height: 100%;
+        overflow: scroll;
+        .after{
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            transform: translate(-80%, -60%);
+            z-index: -1;
+        }
+        .before{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translate(80%, 60%);
+            z-index: -1;
+        }
+    }
+}

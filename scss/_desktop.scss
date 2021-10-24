@@ -1,0 +1,19 @@
+@media (min-width: 376px) {
+    .container{
+        overflow: hidden;
+        .after{
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            transform: translate(-35%, -60%);
+            z-index: -1;
+        }
+        .before{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translate(35%, 70%);
+            z-index: -1;
+        }
+    }
+}
